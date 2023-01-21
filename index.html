@@ -12,7 +12,7 @@
         </a>
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link navigation__item--selected" href="#">Главная</a>
+            <a class="navigation__link navigation__link--selected" href="#">Главная</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">О Седоне</a>
@@ -21,25 +21,23 @@
             <a class="navigation__link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation__list navigation__list--user">
-          <li class="navigation__item">
-            <a class="navigation__link navigation__link--search" href="#">
+        <ul class="navigation-with-logo">
+          <li class="navigation-with-logo__item">
+            <a class="navigation-with-logo__link navigation-with-logo__link--search" href="#">
               <span class="visually-hidden">
                 Поиск
               </span>
             </a>
           </li>
-          <li class="navigation__item">
-            <a class="navigation__link navigation__link--like" href="#">
+          <li class="navigation-with-logo__item">
+            <a class="navigation-with-logo__link navigation-with-logo__link--like" href="#">
               <span class="visually-hidden">
                 Избранное
               </span>
             </a>
           </li>
-          <li class="navigation__item">
-            <a class="button button--desire" href="#">Хочу сюда</a>
-          </li>
         </ul>
+        <a class="button button--brown navigation__button" href="#">Хочу сюда</a>
       </nav>
     </header>
     <main class="main-index">
@@ -55,6 +53,10 @@
               <p class="advantage__text text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <img class="advantage__image" src="http://dummyimage.com/800x384/99cccc/ffffff.gif&text=The+image!" alt="Седона — не аттракцион для туристов, там течёт своя жизнь" width="800" height="384">
+          </li>
+          <li class="advantage">
+            <h3 class="advantage__title title-h3">Небольшая площадь</h3>
+            <p class="advantage__text text">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="advantage">
             <h3 class="advantage__title title-h3">Красивая дорога</h3>
@@ -92,7 +94,7 @@
       <section class="search">
         <h2 class="search__title title-h2">Заинтересовались?</h2>
         <p class="search__text text text--big">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="button button--search">Поиск гостиницы В Седоне</button>
+        <button class="button button--brown search__button" type="button">Поиск гостиницы В Седоне</button>
       </section>
     </main>
     <footer class="page-footer">
@@ -102,7 +104,7 @@
         <label class="subscribe-form__label">
           <input class="subscribe-form__input" type="email" id="email" name="e-mail">Ваш e-mail
         </label>
-        <button class="button button--subscribe">Подписаться</button>
+        <button class="button button--blue subscribe-form__button" type="submit">Подписаться</button>
       </form>
       <ul class="social">
         <li class="social__item social__item--vk">
