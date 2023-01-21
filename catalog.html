@@ -21,21 +21,23 @@
             <a class="navigation__link">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation__list navigation__list--user">
-          <li class="navigation__item">
-            <a class="navigation__link navigation__link--search" href="">
-              <span class="visually-hidden">Поиск</span>
+        <ul class="navigation-with-logo">
+          <li class="navigation-with-logo__item">
+            <a class="navigation-with-logo__link navigation-with-logo__link--search" href="#">
+              <span class="visually-hidden">
+                Поиск
+              </span>
             </a>
           </li>
-          <li class="navigation__item">
-            <a class="navigation__link navigation__link--like" href="">
-              <span class="visually-hidden">Избранное</span>
+          <li class="navigation-with-logo__item">
+            <a class="navigation-with-logo__link navigation-with-logo__link--like" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span>
             </a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link navigation__link--desire" href="">Хочу сюда</a>
           </li>
         </ul>
+        <a class="button button--brown navigation__button" href="#">Хочу сюда</a>
       </nav>
     </header>
     <main class="main-inner">
@@ -107,12 +109,11 @@
                   <input class="control__input" type="text" name="max-price">до
                 </label>
               </li>
-              <li class="filter-form__item">
-              </li>
             </ul>
+            <div class="filter-form__range">6+u7+yy</div>
           </fieldset>
-          <button class="button button--set" type="submit">Применить</button>
-          <button class="button button--unset">Сбросить</button>
+          <button class="button button--blue filter-form__button" type="submit">Применить</button>
+          <button class="filter-form__link" type="reset">Сбросить</button>
         </form>
         <h2 class="catalog-filter__title title-h2">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
@@ -121,18 +122,18 @@
           <option value="expensive">Сначала дорогое</option>
         </select>
         <ul class="type-view">
-          <li class="type-view__item type-view__item--list">
-            <a class="button button--type-view" href="#">
+          <li class="type-view__item">
+            <a class="type-view__link type-view__link--list" href="#">
               <span class="visially-hidden">Показать список</span>
             </a>
           </li>
-          <li class="type-view__item type-view__item--card">
-            <a class="button button--type-view" href="#">
+          <li class="type-view__item">
+            <a class="type-view__link type-view__link--card" href="#">
               <span class="visially-hidden">Показать карточки</span>
             </a>
           </li>
-          <li class="type-view__item type-view__item--tile">
-            <a class="button button--type-view" href="#">
+          <li class="type-view__item">
+            <a class="type-view__link type-view__link--tile" href="#">
               <span class="visially-hidden">Показать плиткой</span>
             </a>
           </li>
@@ -149,23 +150,19 @@
             </div>
             <ul class="catalog-item__about">
               <li class="catalog-item__elem">
-                <a class="button button--more" href="">Подробнее</a>
+                <a class="button button--brown catalog-item__button" href="">Подробнее</a>
               </li>
               <li class="catalog-item__elem">
-                <button class="button button--add-favorite">В избранное</button>
-              </li>
-              <li class="catalog-item__elem">
-                <ul class="catalog-item__stars">
-                  <li class="star"></li>
-                  <li class="star"></li>
-                  <li class="star"></li>
-                  <li class="star"></li>
-                </ul>
-              </li>
-              <li class="catalog-item__elem catalog-item__elem--top">
-                <p>Рейтинг: 8,5</p>
+                <button class="button button--green" type="button">В избранное</button>
               </li>
             </ul>
+            <ul class="catalog-item__stars">
+              <li class="star"></li>
+              <li class="star"></li>
+              <li class="star"></li>
+              <li class="star"></li>
+            </ul>
+            <p class="button button--gray catalog-item__button">Рейтинг: 8,5</p>
           </li>
           <li class="catalog-item">
             <a href="#" class="catalog-item__link">
@@ -178,23 +175,19 @@
             </div>
             <ul class="catalog-item__about">
               <li class="catalog-item__elem">
-                <a class="button button--more" href="">Подробнее</a>
+                <a class="button button--brown catalog-item__button" href="">Подробнее</a>
               </li>
               <li class="catalog-item__elem">
-                <button class="button button--favorite">В избранном</button>
-              </li>
-              <li class="catalog-item__elem">
-                <ul class="catalog-item__stars">
-                  <li class="star"></li>
-                  <li class="star"></li>
-                  <li class="star"></li>
-                  <li class="star"></li>
-                </ul>
-              </li>
-              <li class="catalog-item__elem catalog-item__elem--top">
-                <p>Рейтинг: 9,2</p>
+                <button class="button button--blue" type="button">В избранном</button>
               </li>
             </ul>
+            <ul class="catalog-item__stars">
+              <li class="star"></li>
+              <li class="star"></li>
+              <li class="star"></li>
+              <li class="star"></li>
+            </ul>
+            <p class="button button--gray catalog-item__button">Рейтинг: 8,5</p>
           </li>
           <li class="catalog-item">
             <a class="catalog-item__link" href="">
@@ -207,22 +200,18 @@
             </div>
             <ul class="catalog-item__about">
               <li class="catalog-item__elem">
-                <a class="button button--more" href="">Подробнее</a>
+                <a class="button button--brown catalog-item__button" href="">Подробнее</a>
               </li>
               <li class="catalog-item__elem">
-                <button class="button button--add-favorite">В избранное</button>
-              </li>
-              <li class="catalog-item__elem">
-                <ul class="catalog-item__stars">
-                  <li class="star"></li>
-                  <li class="star"></li>
-                  <li class="star"></li>
-                </ul>
-              </li>
-              <li class="catalog-item__elem catalog-item__elem--top">
-                <p>Рейтинг: 6,9</p>
+                <button class="button button--green" type="button">В избранное</button>
               </li>
             </ul>
+            <ul class="catalog-item__stars">
+              <li class="star"></li>
+              <li class="star"></li>
+              <li class="star"></li>
+            </ul>
+            <p class="button button--gray catalog-item__button">Рейтинг: 6,9</p>
           </li>
           <li class="catalog-item">
             <a class="catalog-item__link" href="">
@@ -235,44 +224,39 @@
             </div>
             <ul class="catalog-item__about">
               <li class="catalog-item__elem">
-                <a class="button button--more" href="">Подробнее</a>
+                <a class="button button--brown catalog-item__button" href="">Подробнее</a>
               </li>
               <li class="catalog-item__elem">
-                <button class="button button--add-favorite">В избранное</button>
-              </li>
-              <li class="catalog-item__elem">
-                <ul class="catalog-item__stars">
-                  <li class="star"></li>
-                  <li class="star"></li>
-                </ul>
-              </li>
-              <li class="catalog-item__elem catalog-item__elem--top">
-                <p>Рейтинг: 5,0</p>
+                <button class="button button--green" type="button">В избранное</button>
               </li>
             </ul>
+            <ul class="catalog-item__stars">
+              <li class="star"></li>
+              <li class="star"></li>
+            </ul>
+            <p class="button button--gray catalog-item__button">Рейтинг: 5,0</p>
           </li>
         </ul>
         <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+          <li class="pagination__item">
+            <a class="pagination__link pagination__link--grey">1</a>
           </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">2</a>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">2</a>
           </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">3</a>
           </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">4</a>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">4</a>
           </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+          <li class="pagination__item">
+            <a class="pagination__link pagination__link--white" href="#">...</a>
           </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">10</a>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">10</a>
           </li>
         </ul>
-        <button class="button pagination-show-more" type="button">Показать ещё</button>
       </section>
     </main>
     <footer class="page-footer">
@@ -282,7 +266,7 @@
         <label class="subscribe-form__label">
           <input class="subscribe-form__input" type="email" id="email" name="e-mail">Ваш e-mail
         </label>
-        <button class="button button--subscribe">Подписаться</button>
+        <button class="button button--blue subscribe-form__button" type="submit">Подписаться</button>
       </form>
       <ul class="social">
         <li class="social__item social__item--vk">
